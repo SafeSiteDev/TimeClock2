@@ -1,0 +1,25 @@
+:root {
+    --primary-red: #DC143C;
+    --secondary-black: #1A1A1A;
+    --text-white: #F4F4F4;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-black);
+    color: var(--text-white);
+}
+
+.navbar {
+    background-color: var(--primary-red);
+}
+
+.card {
+    background-color: rgba(220, 20, 60, 0.1);
+    border: 1px solid var(--primary-red);
+}
+
+.btn-primary {
+    background-color: var(--primary-red);
+    border-color: var(--primary-red);
+}
